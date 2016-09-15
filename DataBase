@@ -64,7 +64,7 @@ public class DataBase {
        try{
             con.close();
         }catch(SQLException sqlex){
-            System.out.println("Erro na conexão "+ sqlex);
+            System.out.println("Connection Error "+ sqlex);
         }
    }
 
